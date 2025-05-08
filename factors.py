@@ -21,7 +21,7 @@ def main():  # it will define the function
                 print("This number is not valid.")  # tells the
                 # user that it is not valid.
 
-                if user_num == 0 or user_num == decimal:  # checks if the
+                if user_num == 0:  # checks if the
                     # number is not equal 0 and also is not a decimal
                     print("Number cannot be 0 and cannot be a decimal.")
                     #  tells the user that the number can't be 0 and
